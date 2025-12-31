@@ -1,1 +1,2 @@
-<heading1>
+Boot.dev SQL basics Course notes: 
+
