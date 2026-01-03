@@ -20,4 +20,25 @@ NoSQL databases tend to be fairly unique and are used for more niche purposes. S
 
 Two great relational database are PostgreSQL and SQLite. Comparison between the two are documented in the link: https://db-engines.com/en/system/PostgreSQL%3BSQLite
 
+**SQL Commands:**   
+CREATE:   
+CREATE TABLE employees(
+    id INTEGER,
+    name TEXT,
+    age INTEGER,
+    is_manager BOOLEAN,
+    salary INTEGER
+);
 
+ALTER:  
+ALTER TABLE employees
+RENAME TO contractors;
+
+ALTER TABLE contractors
+RENAME COLUMN salary TO invoice;  
+
+ALTER TABLE contractors
+ADD COLUMN job_title TEXT;
+
+ALTER TABLE contractors
+DROP COLUMN is_manager;
