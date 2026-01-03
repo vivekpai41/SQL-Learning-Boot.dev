@@ -12,7 +12,7 @@ SQLite is a bit different is that it stores Boolean values as integers - the int
 1 = true
 
 **NoSQL:**   
-NoSQL databases tend to be fairly unique and are used for more niche purposes. Some of the main differences between SQL and NoSQL databases are:
-  NoSQL databases are usually non-relational, SQL databases are usually relational (we'll talk more about what this means later).
-  SQL databases usually have a defined schema, NoSQL databases usually have dynamic schema.
-  SQL databases are table-based, NoSQL databases have a variety of different storage methods, such as document, key-value, graph, wide-column, and more.
+NoSQL databases tend to be fairly unique and are used for more niche purposes. Some of the main differences between SQL and NoSQL databases are:   
+  NoSQL databases are usually non-relational, SQL databases are usually relational.   
+  SQL databases usually have a defined schema, NoSQL databases usually have dynamic schema.   
+  SQL databases are table-based, NoSQL databases have a variety of different storage methods, such as document, key-value, graph, wide-column, and more.   
